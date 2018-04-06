@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<h1>{{ architecture.initialism }}</h1>
+
+<p>
+{% for component in architecture.components %}
+	{{ component }}
+{% endfor %}
+</p>
+
+</body>
+</html>

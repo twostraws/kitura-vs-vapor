@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<h1>#(initialism)</h1>
+
+<p>
+#for(component in components) {
+	#(component)
+}
+</p>
+
+</body>
+</html>
